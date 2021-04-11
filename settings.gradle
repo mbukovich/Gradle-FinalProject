@@ -1,1 +1,3 @@
+include ':JokeActivityLibrary'
+include ':GetJokeLib'
 include ':app', ':backend'
