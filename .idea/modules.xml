@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GetJokeLib/GetJokeLib.iml" filepath="$PROJECT_DIR$/.idea/modules/GetJokeLib/GetJokeLib.iml" group="Gradle-FinalProject/GetJokeLib" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Gradle-FinalProject.iml" filepath="$PROJECT_DIR$/.idea/modules/Gradle-FinalProject.iml" group="Gradle-FinalProject" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/JokeActivityLibrary/JokeActivityLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/JokeActivityLibrary/JokeActivityLibrary.iml" group="Gradle-FinalProject/JokeActivityLibrary" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JokeLibrary/JokeLibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/JokeLibrary/JokeLibrary.iml" group="Gradle-FinalProject/JokeLibrary" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="Gradle-FinalProject/app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/backend/backend.iml" filepath="$PROJECT_DIR$/.idea/modules/backend/backend.iml" group="Gradle-FinalProject/backend" />
     </modules>

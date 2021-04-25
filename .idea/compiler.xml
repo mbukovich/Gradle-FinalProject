@@ -4,6 +4,7 @@
     <bytecodeTargetLevel>
       <module name="backend" target="1.7" />
       <module name="GetJokeLib" target="1.7" />
+      <module name="JokeLibrary" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

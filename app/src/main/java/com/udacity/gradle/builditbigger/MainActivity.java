@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tellJoke(View view) {
+        // Wire up libraries to open intent to tell joke
         Toast.makeText(this, "derp", Toast.LENGTH_SHORT).show();
     }
 
