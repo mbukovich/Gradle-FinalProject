@@ -1,14 +1,18 @@
 package com.udacity.gradle.builditbigger;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Pair;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import com.example.jokeactivitylibrary.JokeActivity;
 
-public class MainActivity extends AppCompatActivity {
+
+public class MainActivity extends AppCompatActivity implements GetEndpointAsync.responseHandler {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,9 +44,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void tellJoke(View view) {
-        // Wire up libraries to open intent to tell joke
-        Toast.makeText(this, "derp", Toast.LENGTH_SHORT).show();
+        // Make a request to our backend to get a random joke
+        new GetEndpointAsync().execute(this);
     }
 
 
+    @Override
+    public void handleResponse(String result) {
+        // Do stuff to launch the display joke activity using JokeActivityLibrary
+        Intent intent = new Intent(this, JokeActivity.class);
+        intent.putExtra(JokeActivity.JOKE_EXTRA_KEY, result);
+        startActivity(intent);
+    }
 }
