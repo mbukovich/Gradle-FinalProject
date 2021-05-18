@@ -14,6 +14,8 @@ import com.example.jokeactivitylibrary.JokeActivity;
 
 public class MainActivity extends AppCompatActivity implements GetEndpointAsync.responseHandler {
 
+    private String joke = "";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,14 +46,23 @@ public class MainActivity extends AppCompatActivity implements GetEndpointAsync.
     }
 
     public void tellJoke(View view) {
+        getJokeFromAsync();
+    }
+
+    public void getJokeFromAsync() {
         // Make a request to our backend to get a random joke
         new GetEndpointAsync().execute(this);
+    }
+
+    public String getJoke() {
+        return joke;
     }
 
 
     @Override
     public void handleResponse(String result) {
         // Do stuff to launch the display joke activity using JokeActivityLibrary
+        joke = result;
         Intent intent = new Intent(this, JokeActivity.class);
         intent.putExtra(JokeActivity.JOKE_EXTRA_KEY, result);
         startActivity(intent);
