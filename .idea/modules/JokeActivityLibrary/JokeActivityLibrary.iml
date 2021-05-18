@@ -10,11 +10,11 @@
     </facet>
     <facet type="android" name="Android">
       <configuration>
-        <option name="SELECTED_BUILD_VARIANT" value="debug" />
-        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
-        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <option name="SELECTED_BUILD_VARIANT" value="release" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleRelease" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileReleaseSources" />
         <afterSyncTasks>
-          <task>generateDebugSources</task>
+          <task>generateReleaseSources</task>
         </afterSyncTasks>
         <option name="ALLOW_USER_CONFIGURATION" value="false" />
         <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
@@ -27,44 +27,31 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
-    <output url="file://$MODULE_DIR$/../../../JokeActivityLibrary/build/intermediates/classes/debug" />
-    <output-test url="file://$MODULE_DIR$/../../../JokeActivityLibrary/build/intermediates/classes/test/debug" />
+    <output url="file://$MODULE_DIR$/../../../JokeActivityLibrary/build/intermediates/classes/release" />
+    <output-test url="file://$MODULE_DIR$/../../../JokeActivityLibrary/build/intermediates/classes/test/release" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../JokeActivityLibrary">
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/build/generated/source/aidl/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/build/generated/source/apt/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/build/generated/source/rs/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/build/generated/res/rs/debug" type="java-resource" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/build/generated/res/resValues/debug" type="java-resource" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/build/generated/source/rs/androidTest/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/build/generated/source/apt/androidTest/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/build/generated/source/buildConfig/androidTest/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/build/generated/source/aidl/androidTest/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/build/generated/res/rs/androidTest/debug" type="java-test-resource" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/build/generated/res/resValues/androidTest/debug" type="java-test-resource" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/build/generated/source/apt/test/debug" isTestSource="true" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/debug/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/debug/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/debug/assets" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/debug/aidl" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/debug/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/debug/rs" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/debug/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/androidTestDebug/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/androidTestDebug/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/androidTestDebug/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/androidTestDebug/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/androidTestDebug/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/androidTestDebug/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/androidTestDebug/shaders" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/testDebug/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/testDebug/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/testDebug/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/testDebug/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/testDebug/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/testDebug/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/testDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/build/generated/source/apt/release" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/build/generated/source/aidl/release" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/build/generated/source/buildConfig/release" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/build/generated/source/rs/release" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/build/generated/res/rs/release" type="java-resource" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/build/generated/res/resValues/release" type="java-resource" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/build/generated/source/apt/test/release" isTestSource="true" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/release/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/release/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/release/assets" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/release/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/release/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/release/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/release/shaders" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/testRelease/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/testRelease/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/testRelease/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/testRelease/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/testRelease/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/testRelease/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/testRelease/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/main/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/../../../JokeActivityLibrary/src/main/assets" type="java-resource" />
